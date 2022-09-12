@@ -1,1 +1,1 @@
-print("Tere, Minu nimi on Anette!")
+print("Tere, minu nimi on Anette!")
