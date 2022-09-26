@@ -1,5 +1,4 @@
-# AC-Projekt
-Möngu pealkiri: "Pengulino"
+# AC-Projekt: Pengulino
 Rühmaliikmed: Anette Orav, Christine Kaldoja
 
 Teema: inglisekeelsete sõnade õppimine (B2-C2 tase) 
