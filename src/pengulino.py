@@ -40,13 +40,13 @@ while True:
         punktid = 0
         while i <= 10:
             
-            print(i)
+            #print(i)
             i += 1
             
             number = randint(2, 204)
             word = (andmed[number][0])
-            print(andmed[number][0])
-            print(andmed[number][1])
+            #print(andmed[number][0])
+            #print(andmed[number][1])
             with open('list.csv', encoding='UTF-8') as csvfile:
                 reader = csv.reader(csvfile)
                 next(reader)
@@ -81,7 +81,7 @@ while True:
             if syndmus == (answer_list[0]):
                 if (answer_list[0]) == (andmed[number][1]):
                     punktid += 1
-                    print(punktid)
+                    #print(punktid)
                     sg.Popup('Right answer.')
                     if i == 10:
                         paigutus3 = [
@@ -108,7 +108,7 @@ while True:
             if syndmus == (answer_list[1]):
                 if (answer_list[1]) == (andmed[number][1]):
                     punktid += 1
-                    print(punktid)
+                    #print(punktid)
                     sg.Popup('Right answer.')
                     if i == 10:
                         paigutus3 = [
@@ -135,7 +135,7 @@ while True:
             if syndmus == (answer_list[2]):
                 if (answer_list[2]) == (andmed[number][1]):
                     punktid += 1
-                    print(punktid)
+                    #print(punktid)
                     sg.Popup('Right answer.')
                     if i == 10:
                         paigutus3 = [
@@ -175,13 +175,13 @@ while True:
         punktid = 0
         while i <= 30:
             
-            print(i)
+            #print(i)
             i += 1
             
             number = randint(2, 204)
             word = (andmed[number][0])
-            print(andmed[number][0])
-            print(andmed[number][1])
+            #print(andmed[number][0])
+            #print(andmed[number][1])
             with open('list.csv', encoding='UTF-8') as csvfile:
                 reader = csv.reader(csvfile)
                 next(reader)
@@ -216,7 +216,7 @@ while True:
             if syndmus == (answer_list[0]):
                 if (answer_list[0]) == (andmed[number][1]):
                     punktid += 1
-                    print(punktid)
+                    #print(punktid)
                     sg.Popup('Right answer.')
                     if i == 20:
                         paigutus3 = [
@@ -243,7 +243,7 @@ while True:
             if syndmus == (answer_list[1]):
                 if (answer_list[1]) == (andmed[number][1]):
                     punktid += 1
-                    print(punktid)
+                    #print(punktid)
                     sg.Popup('Right answer.')
                     if i == 20:
                         paigutus3 = [
@@ -270,7 +270,7 @@ while True:
             if syndmus == (answer_list[2]):
                 if (answer_list[2]) == (andmed[number][1]):
                     punktid += 1
-                    print(punktid)
+                    #print(punktid)
                     sg.Popup('Right answer.')
                     if i == 20:
                         paigutus3 = [
@@ -310,13 +310,13 @@ while True:
         punktid = 0
         while i <= 50:
             
-            print(i)
+            #print(i)
             i += 1
             
             number = randint(2, 204)
             word = (andmed[number][0])
-            print(andmed[number][0])
-            print(andmed[number][1])
+            #print(andmed[number][0])
+            #print(andmed[number][1])
             with open('list.csv', encoding='UTF-8') as csvfile:
                 reader = csv.reader(csvfile)
                 next(reader)
@@ -351,7 +351,7 @@ while True:
             if syndmus == (answer_list[0]):
                 if (answer_list[0]) == (andmed[number][1]):
                     punktid += 1
-                    print(punktid)
+                    #print(punktid)
                     sg.Popup('Right answer.')
                     if i == 50:
                         paigutus3 = [
@@ -378,7 +378,7 @@ while True:
             if syndmus == (answer_list[1]):
                 if (answer_list[1]) == (andmed[number][1]):
                     punktid += 1
-                    print(punktid)
+                    #print(punktid)
                     sg.Popup('Right answer.')
                     if i == 50:
                         paigutus3 = [
@@ -405,7 +405,7 @@ while True:
             if syndmus == (answer_list[2]):
                 if (answer_list[2]) == (andmed[number][1]):
                     punktid += 1
-                    print(punktid)
+                    #print(punktid)
                     sg.Popup('Right answer.')
                     if i == 50:
                         paigutus3 = [
